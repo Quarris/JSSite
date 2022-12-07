@@ -1,0 +1,1 @@
+routes['home'] = "Hello Home"

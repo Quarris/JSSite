@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: lightgray;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbar li a:hover {
+    background-color: darkgray;
+    color: blue;
+}
