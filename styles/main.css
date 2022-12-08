@@ -2,14 +2,29 @@
     box-sizing: border-box;
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
+html {
+    background-color: #393c41;
+    margin: auto;
+    width: 70%;
+    height: 100%;
+}
+
+body {
+    background-color: #51555c;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+main {
+    padding: 5px;
+    flex: 1 1 auto;
 }
 
 .navbar {
-    background-color: lightgray;
+    background-color: rgb(73, 73, 73);
     font-weight: 700;
+    font-size: 2rem;
     margin: 0;
     padding: 0;
     display: flex;
